@@ -49,59 +49,39 @@ nav ul li a {
   font-weight: 500;
 }
 
-/* Hero Section */
-#hero {
-  background: #e1f5fe;
-  padding: 40px 0;
-  text-align: center;
+/* Active link */
+nav ul li a.active {
+  text-decoration: underline;
 }
 
-#hero h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-#hero p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-}
-
-#hero img {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-}
-
-/* Sections */
-section {
+/* Main Sections */
+main section {
   padding: 40px 0;
   border-bottom: 1px solid #ddd;
 }
 
-section:last-of-type {
+main section:last-of-type {
   border-bottom: none;
 }
 
-section h2 {
+main section h2 {
   font-size: 1.8rem;
   margin-bottom: 20px;
   color: #4a90e2;
 }
 
-section p {
+main section p {
   font-size: 1rem;
   margin-bottom: 20px;
 }
 
-section ul,
-section ol {
+main section ul,
+main section ol {
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
-section img {
+main section img {
   width: 100%;
   max-width: 600px;
   height: auto;
